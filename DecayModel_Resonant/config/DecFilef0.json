@@ -1,0 +1,24 @@
+{	
+	"masses"    : { 
+		"mMother" : 5.367,
+		"mPsi" : 3.097,
+		"mh1" : 0.140,
+		"mh2" : 0.140
+	} ,
+
+	"mode" : "polar",
+
+	"resonance" : { 
+	"f0(980)": {
+		"type" : "FLATTE",
+		"amplitude" : [1,0],
+		"basis" : "helicity",
+		"mean" : 0.945,
+		"gpipi" : 0.167,
+		"gkk" : 0.579,
+		"alpha" : 2,
+		"LR" : 0,
+		"LB" : 1
+        }
+        }
+}

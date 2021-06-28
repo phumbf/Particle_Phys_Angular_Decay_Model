@@ -1,0 +1,34 @@
+{
+	"MotherM": 5.279,
+
+		"Daughter1M" : 0.1396,
+
+		"Daughter2M" : 0.4937,
+
+		"WC" : "SM",
+
+		"WP" : "Zero",
+
+		"resonance":{
+
+
+
+			"K*0(1430)":{
+				"mesonM" : 1.425,
+				"mesonW" : 0.270,
+				"mesonL" : 0,
+				"lineshape" : "BW",
+				"formfactors" : "/data/lhcb/phumbf/Work/DecayModel_RareMode/decaymodel_raremode/form-factors/AAS07/BK0star_QCDRS.json",
+				"B0m" : 5.279,
+				"B1m" : 5.325,
+				"B1p" : 5.724,
+				"BFfac" : 1.0,
+				"isCP" : false,
+				"isEvtGenWC" : false,
+				"isbtod" : false,
+				"couplingval" : 1.323,
+				"couplingpha" : 0
+			}
+
+		}
+}

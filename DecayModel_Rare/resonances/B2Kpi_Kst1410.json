@@ -1,0 +1,34 @@
+{
+	"MotherM": 5.279,
+
+		"Daughter1M" : 0.1396,
+
+		"Daughter2M" : 0.4937,
+
+		"WC" : "SM",
+
+		"WP" : "Zero",
+
+		"resonance":{
+
+
+
+			"K1(1410)":{
+
+				"mesonM" : 1.414,
+				"mesonW" : 0.232,
+				"mesonL" : 1,
+				"lineshape" : "BW",
+				"formfactors" : "/data/lhcb/phumbf/Work/DecayModel_RareMode/decaymodel_raremode/form-factors/BZ04/BKstar_LCSR.json",
+				"B0m" : 5.279,
+				"B1m" : 5.325,
+				"B1p" : 5.724,
+				"BFfac" : 1.0,
+				"isCP" : false,
+				"isEvtGenWC" : false,
+				"isbtod" : false,
+				"couplingval" :0.756,
+				"couplingpha" :0
+			}
+		}
+}

@@ -1,0 +1,68 @@
+{
+	"masses"    : { 
+		"mMother" : 5.367,
+		"mPsi" : 3.097,
+		"mh1" : 0.140,
+		"mh2" : 0.140
+	} ,
+
+	"mode" : "cartesian",
+
+	"Dfactor" : 0.062,
+
+	"resonance" : {
+	"f0(980)": {
+		"type" : "FLATTE",
+		"amplitude" : [1,0],
+		"basis" : "helicity",
+		"mean" : 0.945,
+		"gpipi" : 0.167,
+		"gkk" : 0.579,
+		"alpha" : 2,
+		"LR" : 0,
+		"LB" : 1
+
+	},
+	"f0(1500)": {
+		"type" : "BWNorm",
+		"amplitude" : [-5.46546,4.91671],
+		"basis" : "helicity",
+		"mean" : 1.4609,
+		"width" : 0.124, 
+		"LR" : 0,
+		"LB" : 1
+
+	},
+	"f2(1270)": {
+		"type" : "BWNorm",
+		"amplitude" : [-1.14548,10.1959,-10.1811,10.848,-9.25383,-9.25383],
+		"basis" : "helicity",
+		"mean" : 1.270,
+		"width" : 0.185, 
+		"LR" : 2,
+		"LB" : 1
+
+	},
+	"f0(1790)": {
+		"type" : "BWNorm",
+		"amplitude" : [0.586627,2.75503],
+		"basis" : "helicity",
+		"mean" : 1.79,
+		"width" : 0.270, 
+		"LR" : 0,
+		"LB" : 1
+
+	},
+	"f2'(1525)": {
+		"type" : "BWNorm",
+		"amplitude" : [12.5798,-9.2158,7.15617,-14.0795,9.36782,-0.459216],
+		"basis" : "helicity",
+		"mean" : 1.522,
+		"width" : 0.084, 
+		"LR" : 2,
+		"LB" : 1
+
+	}
+	},
+	"exotic" : { } 
+}

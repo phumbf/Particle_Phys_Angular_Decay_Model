@@ -1,0 +1,15 @@
+The form factors used in the decay model use the following abbreviations.
+These abbreviations refer to the author names from the papers where the
+information is taken from
+
+YANG10 -- arXiv:1010.2944v3 B -> f2(1270),  B -> K*_2(1430)  Bs -> f2prime(1525), Bs -> K*_2(1430)
+AAS07  -- arXiv:0710.1508 , B -> K*_0(1430) 
+BSZ15  -- arXiv:1503.05534, B -> K*(892), B -> omega, Bs -> K*(892), Bs -> phi, B->rho(770)
+BZ04   -- arXiv:hep-ph/0412079, B -> K*(892), B -> rho(770), B -> omega
+ESS18 -- arXiv:1804.02953v1, B->f2(1270)
+CFW10  -- arXiv:1002.2880v1, Bs->f0(980) 
+MS00 -- arXiv:hep-ph/0001113v3, B->rho and others 
+ABHH99 -- hep-ph/991022v2, Phys RevD61 (2000) 074024 B->K* and others 
+
+The form factors included are calculated using Lattice QCD and Light Cone Sum
+Rules

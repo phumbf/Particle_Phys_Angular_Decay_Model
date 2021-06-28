@@ -1,0 +1,78 @@
+{
+	"masses"    : { 
+		"mMother" : 5.367,
+		"mPsi" : 3.097,
+		"mh1" : 0.140,
+		"mh2" : 0.140
+	} ,
+
+	"mode" : "fractions",
+
+	"Dfactor" : 0.062,
+
+	"resonance" : {
+	"f0(980)": {
+		"type" : "FLATTE",
+		"amplitude" : [1,0],
+		"basis" : "transversity",
+		"mean" : 0.945,
+		"gpipi" : 0.167,
+		"gkk" : 0.579,
+		"alpha" : 2,
+		"LR" : 0,
+		"LB" : 1,
+		"transversityfracs" : [1,0,0],
+		"targetfitfrac" : 0.703
+
+	},
+	"f0(1500)": {
+		"type" : "BWNorm",
+		"amplitude" : [1,2.409],
+		"basis" : "transversity",
+		"mean" : 1.4609,
+		"width" : 0.124, 
+		"LR" : 0,
+		"LB" : 1,
+		"transversityfracs" : [1, 0, 0],
+		"targetfitfrac" : 0.101
+
+	},
+	"f2(1270)": {
+		"type" : "BWNorm",
+		"amplitude" : [1,1,1,1.676,-1.57,0],
+		"basis" : "transversity",
+		"mean" : 1.270,
+		"width" : 0.185, 
+		"LR" : 2,
+		"LB" : 1,
+		"transversityfracs" : [0.238,0.344,0.417],
+		"targetfitfrac" : 0.0151
+
+	},
+	"f0(1790)": {
+		"type" : "BWNorm",
+		"amplitude" : [1,1.361],
+		"basis" : "transversity",
+		"mean" : 1.79,
+		"width" : 0.270, 
+		"LR" : 0,
+		"LB" : 1,
+		"transversityfracs" : [1,0,0],
+		"targetfitfrac" : 0.024
+
+	},
+	"f2'(1525)": {
+		"type" : "BWNorm",
+		"amplitude" : [1,1,1,-2.3,1.798,2.601],
+		"basis" : "transversity",
+		"mean" : 1.522,
+		"width" : 0.084, 
+		"LR" : 2,
+		"LB" : 1,
+		"transversityfracs" : [0.614,0.072,0.314],
+		"targetfitfrac" : 0.0083
+
+	}
+	},
+	"exotic" : { } 
+}

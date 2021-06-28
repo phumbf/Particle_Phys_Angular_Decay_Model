@@ -1,0 +1,31 @@
+{
+	"MotherM": 5.279,
+
+	"Daughter1M" : 0.1396,
+
+	"Daughter2M" : 0.4937,
+
+	"WC" : "SM",
+
+	"WP" : "Zero",
+
+	"resonance":{
+
+		"Kstar892":{
+
+			"mesonM" : 0.896,
+			"mesonW" : 0.049,
+			"mesonL" : 1,
+			"lineshape" : "BW",
+			"formfactors" : "/data/lhcb/phumbf/Work/DecayModel_RareMode/decaymodel_raremode/form-factors/ABHH99/B2Kst.json",
+			"B0m" : 5.279,
+			"Bst" : 5.324,
+			"BFfac" : 1.0,
+			"isCP" : false,
+			"isEvtGenWC" : false,
+			"isbtod" : false,
+			"couplingval":0.748,
+			"couplingpha":0.0
+		}
+	}
+}

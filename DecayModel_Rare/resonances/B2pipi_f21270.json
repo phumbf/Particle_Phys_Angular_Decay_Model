@@ -1,0 +1,33 @@
+{
+	"MotherM": 5.279,
+	
+	"Daughter1M" : 0.1396,
+
+	"Daughter2M" : 0.1396,
+
+	"WC" : "SM",
+
+	"WP" : "Zero",
+
+	"resonance":{
+		 
+		 "f2(1270)":{
+		    
+		    "mesonM" : 1.275,
+		    "mesonW" : 0.187,
+		    "mesonL" : 2,
+		    "lineshape" : "BW",
+		    "formfactors" : "/data/lhcb/phumbf/Work/DecayModel_RareMode/decaymodel_raremode/form-factors/ESS18/B2f1270_LCSR.json",
+		    "B0m" : 5.279,
+		    "B1m" : 5.325,
+		    "B1p" : 5.724,
+		    "BFfac" : 1.0,
+		    "isCP" : true,
+		    "isEvtGenWC" : false,
+		    "isbtod" : true,
+		    "couplingval": 0.356,
+		    "couplingpha" : 0.0
+		}
+	
+	}
+}

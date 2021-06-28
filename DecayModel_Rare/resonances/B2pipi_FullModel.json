@@ -1,0 +1,117 @@
+{
+	"MotherM": 5.279,
+	
+	"Daughter1M" : 0.1396,
+
+	"Daughter2M" : 0.1396,
+
+	"WC" : "SM",
+
+	"WP" : "Zero",
+
+	"resonance":{
+
+		"rho(770)":{
+
+		    "mesonM" : 0.775,
+		    "mesonW" : 0.148,
+		    "mesonL" : 1,
+		    "lineshape" : "BW",
+		    "formfactors" : "/data/lhcb/phumbf/Work/DecayModel_RareMode/decaymodel_raremode/form-factors/BSZ15/Brho770_LCSR.json",
+		    "B0m" : 5.279,
+		    "B1m" : 5.325,
+		    "B1p" : 5.724,
+		    "BFfac" : 1.0,
+		    "isCP" : true,
+		    "isEvtGenWC" : false,
+		    "isbtod" : true,
+		    "couplingval" : 0.693,
+		    "couplingpha" : 0.0
+		},
+		"f0(500)":{
+		    
+		    "mesonM" : 0.513,
+		    "mesonW" : 0.335,
+		    "mesonL" : 0,
+		    "lineshape" : "BW",
+		    "formfactors" : "/data/lhcb/phumbf/Work/DecayModel_RareMode/decaymodel_raremode/form-factors/CFW10/Bsf0_LCSR.json",
+		    "B0m" : 5.279,
+		    "B1m" : 5.325,
+		    "B1p" : 5.724,
+		    "BFfac" : 1.0,
+		    "isCP" : true,
+		    "isEvtGenWC" : false,
+		    "isbtod" : true,
+		    "couplingval": 0.975,
+		    "couplingpha" : 0.0
+		},
+		"omega782":{
+
+		    "mesonM" : 0.783,
+		    "mesonW" : 0.0085,
+		    "mesonL" : 1,
+		    "lineshape" : "BW",
+		    "formfactors" : "/data/lhcb/phumbf/Work/DecayModel_RareMode/decaymodel_raremode/form-factors/BSZ15/Bomega_LCSR.json",
+		    "B0m" : 5.279,
+		    "B1m" : 5.325,
+		    "B1p" : 5.724,
+		    "BFfac" : 1.0,
+		    "isCP" : true,
+		    "isEvtGenWC" : false,
+		    "isbtod" : true,
+		    "couplingval": 0.623,
+		    "couplingpha": 0.0
+		},
+		"f2(1270)":{
+		    
+		    "mesonM" : 1.275,
+		    "mesonW" : 0.187,
+		    "mesonL" : 2,
+		    "lineshape" : "BW",
+		    "formfactors" : "/data/lhcb/phumbf/Work/DecayModel_RareMode/decaymodel_raremode/form-factors/ESS18/B2f1270_LCSR.json",
+		    "B0m" : 5.279,
+		    "B1m" : 5.325,
+		    "B1p" : 5.724,
+		    "BFfac" : 1.0,
+		    "isCP" : true,
+		    "isEvtGenWC" : false,
+		    "isbtod" : true,
+		    "couplingval": 0.356,
+		    "couplingpha" : 0.0
+		},
+		"rho(1450)":{
+
+		    "mesonM" : 1.465,
+		    "mesonW" : 0.40,
+		    "mesonL" : 1,
+		    "lineshape" : "BW",
+		    "formfactors" : "/data/lhcb/phumbf/Work/DecayModel_RareMode/decaymodel_raremode/form-factors/BZ04/Brho_LCSR.json",
+		    "B0m" : 5.279,
+		    "B1m" : 5.325,
+		    "B1p" : 5.724,
+		    "BFfac" : 1.0,
+		    "isCP" : true,
+		    "isEvtGenWC" : false,
+		    "isbtod" : true,
+		    "couplingval" : 0.412,
+		    "couplingpha" : 0.0
+		},
+		"rho(1700)":{
+
+		    "mesonM" : 1.72,
+		    "mesonW" : 0.25,
+		    "mesonL" : 1,
+		    "lineshape" : "BW",
+		    "formfactors" : "/data/lhcb/phumbf/Work/DecayModel_RareMode/decaymodel_raremode/form-factors/BZ04/Brho_LCSR.json",
+		    "B0m" : 5.279,
+		    "B1m" : 5.325,
+		    "B1p" : 5.724,
+		    "BFfac" : 1.0,
+		    "isCP" : true,
+		    "isEvtGenWC" : false,
+		    "isbtod" : true,
+		    "couplingval" : 0.400,
+		    "couplingpha" : 0.0
+		}
+	}
+}

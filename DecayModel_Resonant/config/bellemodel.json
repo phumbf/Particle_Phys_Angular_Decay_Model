@@ -1,0 +1,121 @@
+{	
+	"masses"    : { 
+		"mMother" : 5.279,
+		"mPsi" : 3.097,
+		"mh1" : 0.493,
+		"mh2" : 0.140
+	} ,
+
+	"mode" : "polar",
+
+	"resonance" : { 
+        "K*(892)" : {
+            "type"      : "BW",
+	    "amplitude" : [  1.0, 0.844, 0.196, 0, 3.14, -1.70 ],
+	    "basis" : "helicity",
+            "mean"      : 0.896,
+            "width"     : 0.049,
+            "LR"        : 1,
+            "LB"        : 0
+        },
+        "K0(1400)" : {
+            "type"      : "BW",
+            "amplitude" : [ 0.89, -2.17 ],
+	    "basis" : "helicity",
+            "mean"      : 1.425,
+            "width"     : 0.270,
+            "LR"        : 0,
+            "LB"        : 1
+        },
+        "K0(800)" : {
+            "type"      : "BW",
+            "amplitude" : [ 1.12, 2.30 ],
+	    "basis" : "helicity",
+            "mean"      : 0.931,
+            "width"     : 0.578,
+            "LR"        : 0,
+            "LB"        : 1
+        },
+        "K2(1430)" : {
+            "type"      : "BW",
+            "amplitude" : [ 4.66, 4.65, 1.26, -0.32, -3.05, -1.92 ],
+	    "basis" : "helicity",
+            "mean"      : 1.432,
+            "width"     : 0.109,
+            "LR"        : 2,
+            "LB"        : 1
+        },
+        "K1(1410)" : {
+            "type"      : "BW",
+            "amplitude" : [ 0.119, 0.123, 0.036, 0.81, -1.04, 0.67 ],
+	    "basis" : "helicity",
+            "mean"      : 1.414,
+            "width"     : 0.232,
+            "LR"        : 1,
+            "LB"        : 0
+        },
+        "K1(1680)" : {
+            "type"      : "BW",
+            "amplitude" : [ 0.139, 0.082, 0.161, -2.46, -2.85, 1.88 ],
+	    "basis" : "helicity",
+            "mean"      : 1.717,
+            "width"     : 0.322,
+            "LR"        : 1,
+            "LB"        : 0
+        },
+        "K0(1950)" : {
+            "type"      : "BW",
+            "amplitude" : [ 0.241, -2.39 ],
+	    "basis" : "helicity",
+            "mean"      : 1.945,
+            "width"     : 0.201,
+            "LR"        : 0,
+            "LB"        : 1
+        },
+        "K2(1980)" : {
+            "type"      : "BW",
+            "amplitude" : [ 4.53, 3.78, 3.51, -0.26, 3.08, 2.63 ],
+	    "basis" : "helicity",
+            "mean"      : 1.973,
+            "width"     : 0.372,
+            "LR"        : 2,
+            "LB"        : 1
+        },
+        "K3(1780)" : {
+            "type"      : "BW",
+            "amplitude" : [ 16.8, 19.1, 10.2, -1.43, 2.03, 1.55 ],
+	    "basis" : "helicity",
+            "mean"      : 1.776,
+            "width"     : 0.159,
+            "LR"        : 3,
+            "LB"        : 2
+        },
+        "K4(2045)" : {
+            "type"      : "BW",
+            "amplitude" : [ 590.0 , 676.0 , 103.0, -2.66, 0.06, -1.03 ],
+	    "basis" : "helicity",
+            "mean"      : 2.045,
+            "width"     : 0.198,
+            "LR"        : 4,
+            "LB"        : 3
+        }
+    	},
+	"exotic" : { 
+	"Z(4430)" : { 
+	   "amplitude" : [ 1.12, 1.17, 1.17, -0.31, 0.77, 0.77  ],
+	   "basis" : "helicity",
+	   "mean"      : 4.485,
+	   "width"     : 0.200,
+	   "J"         : 1,
+	   "P"         : "pos"
+	},
+	"Z(4200)" : { 
+	   "amplitude" : [ 0.71, 3.23, 3.23, 2.14, 3.0, 3.0 ], 
+	   "basis" : "helicity",
+	   "mean"      : 4.196,
+	   "width"     : 0.370,
+	   "J"         : 1,
+	   "P"         : "pos"
+	}
+	}
+}

@@ -1,0 +1,11 @@
+add_executable(acceptreject_pipi.exe acceptreject_pipi.cc)
+target_link_libraries(acceptreject_pipi.exe PRIVATE ResonantDecayModelLib)
+
+add_executable(rhoJpsiMC_reweight_f0edit.exe rhoJpsiMC_reweight_f0edit.cc)
+target_link_libraries(rhoJpsiMC_reweight_f0edit.exe PRIVATE ResonantDecayModelLib)
+
+add_executable(f0JpsiMC_reweight_edit.exe f0JpsiMC_reweight_edit.cc)
+target_link_libraries(f0JpsiMC_reweight_edit.exe PRIVATE ResonantDecayModelLib)
+
+add_executable(projectionBs.exe projectionBs.cc)
+target_link_libraries(projectionBs.exe PRIVATE ResonantDecayModelLib)

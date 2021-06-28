@@ -1,0 +1,85 @@
+{
+	"MotherM": 5.367,
+	
+	"Daughter1M" : 0.1396,
+
+	"Daughter2M" : 0.1396,
+
+	"WC" : "SM",
+
+	"WP" : "Zero",
+
+	"resonance":{
+
+		"f0(980)":{
+		    "mesonM" : 0.990,
+		    "mesonW" : 0.070,
+		    "mesonL" : 0,
+		    "lineshape" : "BW",
+		    "formfactors" : "/data/lhcb/phumbf/Work/DecayModel_RareMode/decaymodel_raremode/form-factors/CFW10/Bsf0_LCSR.json",
+		    "B0m" : 5.367,
+		    "BFfac" : 1.0,
+		    "isCP" : true,
+		    "isEvtGenWC" : false,
+		    "isbtod" : false,
+		    "couplingval" : 0.859,
+		    "couplingpha" : 0.0
+		},
+		"f2(1270)":{
+		    "mesonM" : 1.270,
+		    "mesonW" : 0.185,
+		    "mesonL" : 2,
+		    "lineshape" : "BW",
+		    "formfactors" : "/data/lhcb/phumbf/Work/DecayModel_RareMode/decaymodel_raremode/form-factors/YANG10/Bsf2prime_LCSR.json",
+		    "B0m" : 5.367,
+		    "BFfac" : 1.0,
+		    "isCP" : true,
+		    "isEvtGenWC" : false,
+		    "isbtod" : false,
+		    "couplingval" : 0.072,
+		    "couplingpha" : 0.0
+		},
+		"f0(1500)":{
+		    "mesonM" : 1.4609,
+		    "mesonW" : 0.124,
+		    "mesonL" : 0,
+		    "lineshape" : "BW",
+		    "formfactors" : "/data/lhcb/phumbf/Work/DecayModel_RareMode/decaymodel_raremode/form-factors/CFW10/Bsf0_LCSR.json",
+		    "B0m" : 5.367,
+		    "BFfac" : 1.0,
+		    "isCP" : true,
+		    "isEvtGenWC" : false,
+		    "isbtod" : false,
+		    "couplingval" : 0.443,
+		    "couplingpha" : 2.40855
+		},
+		"f2'(1525)":{
+		    "mesonM" : 1.522,
+		    "mesonW" : 0.084,
+		    "mesonL" : 2,
+		    "lineshape" : "BW",
+		    "formfactors" : "/data/lhcb/phumbf/Work/DecayModel_RareMode/decaymodel_raremode/form-factors/YANG10/Bsf2prime_LCSR.json",
+		    "B0m" : 5.367,
+		    "BFfac" : 1.0,
+		    "isCP" : true,
+		    "isEvtGenWC" : false,
+		    "isbtod" : false,
+		    "couplingval" : 0.081,
+		    "couplingpha" : 0.0
+		},
+		"f0(1790)":{
+		    "mesonM" : 1.790,
+		    "mesonW" : 0.270,
+		    "mesonL" : 0,
+		    "lineshape" : "BW",
+		    "formfactors" : "/data/lhcb/phumbf/Work/DecayModel_RareMode/decaymodel_raremode/form-factors/CFW10/Bsf0_LCSR.json",
+		    "B0m" : 5.367,
+		    "BFfac" : 1.0,
+		    "isCP" : true,
+		    "isEvtGenWC" : false,
+		    "isbtod" : false,
+		    "couplingval" : 0.271,
+		    "couplingpha" : 0.0
+		}
+	}
+}

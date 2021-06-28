@@ -1,0 +1,22 @@
+{	
+	"masses"    : { 
+		"mMother" : 5.279,
+		"mPsi" : 3.097,
+		"mh1" : 0.493,
+		"mh2" : 0.140
+	} ,
+
+	"mode" : "polar",
+
+	"resonance" : { 
+        "K*(892)" : {
+            "type"      : "BW",
+	    "amplitude" : [  0.775, 0.159, 0.612, 0, 1.563, 2.712],
+	    "basis" : "helicity",
+            "mean"      : 0.896,
+            "width"     : 0.049,
+            "LR"        : 1,
+            "LB"        : 0
+        }
+        }
+}
